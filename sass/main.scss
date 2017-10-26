@@ -87,3 +87,36 @@ footer {
 		}
     }
 }
+
+form.loginform {
+	height: 200px;
+	width: 400px;
+	position: absolute;
+	top: calc(50% - 100px);
+	left: calc(50% - 200px);
+	background-color: rgba(0, 0, 0, .6);
+	color: white;
+	z-index: 2;
+	padding: 10px 0 0 65px;
+	border-radius: 10px;
+	>div {
+		margin-top: 20px;
+		label {
+			display: inline-block;
+			width: 60px;
+			text-align: right;
+			margin-right: 5px;
+			font-size: 14px;
+		}
+		input {
+			color: black;
+			height: 25px;
+    		width: 200px;
+		}
+	}
+	input.btn-lg {
+		margin-top: 20px;
+		display: inline-block;
+		width: 266px;
+	}
+}
