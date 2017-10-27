@@ -25,6 +25,12 @@
 
 .title-comm {
 	text-align: center;
+	& + div.row {
+		.col-lg-4 {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
 }
 
 .col-div {
@@ -35,6 +41,7 @@
     color: rgba(255,255,255,.8);
     border-radius: 2px;
     padding: 18% 10%;
+    margin-top: 10px;
 }
 
 .ac-figure-icon {
@@ -58,6 +65,7 @@ footer {
 	background-color: #333;
     padding: 46.5px 0;
     color: white;
+    margin-top: 20px;
 
     .footer-legal {
 		text-align: center;
@@ -89,10 +97,10 @@ footer {
 }
 
 form.loginform {
-	height: 200px;
+	height: 180px;
 	width: 400px;
 	position: absolute;
-	top: calc(50% - 100px);
+	top: calc(50% - 90px);
 	left: calc(50% - 200px);
 	background-color: rgba(0, 0, 0, .6);
 	color: white;
@@ -117,6 +125,8 @@ form.loginform {
 	input.btn-lg {
 		margin-top: 20px;
 		display: inline-block;
-		width: 266px;
+		width: 132px;
+		font-size: 16px;
+		padding: 5px 8px;
 	}
 }
