@@ -61,6 +61,13 @@
 	background-image: url(../img/people3.png);
 }
 
+nav + iframe {
+	position: relative;
+    top: 60px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
 footer {
 	background-color: #333;
     padding: 46.5px 0;
